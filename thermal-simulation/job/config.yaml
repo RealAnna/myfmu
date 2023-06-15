@@ -1,0 +1,12 @@
+apiVersion: v2
+actions:
+  - name: "Run simulation"
+    events:
+      - name: "sh.keptn.event.remote-simulation.triggered"
+    tasks:
+      - name: "Run simulation"
+        image: "myfmu"
+        args:
+          - 22
+	    - 22
+	    - 22				
