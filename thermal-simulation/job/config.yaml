@@ -6,7 +6,4 @@ actions:
     tasks:
       - name: "Run simulation"
         image: "myfmu"
-        args:
-          - 22
-	  - 22
-          - 22				
+        args: ["22" ,"22","22"]			
